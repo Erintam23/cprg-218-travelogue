@@ -21,6 +21,18 @@ header{
     margin: 2rem;
 }
 
+ul{
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+    margin-top: 2rem;
+    padding: 0;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    color: black;
+}
+
 .container{
     background-color: azure;
     margin: 1rem;
@@ -32,7 +44,7 @@ header{
 }
 
 main{
-    flex: 5;
+    flex: 3;
 }
 
 h2{
@@ -49,8 +61,9 @@ p{
 h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
+    margin-bottom: 2rem;
 }
 
-.leetung{
-    width: 300;
+.leetung {
+    width: 450px;
 }
